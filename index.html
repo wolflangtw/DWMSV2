@@ -14,38 +14,41 @@
         <!-- AOS -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- typed.js -->
+        <script src="typed.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     </head>
     <body>
-        <div class="update-box">
-            <h1 style="float:left; margin-left: 10px;color:black">近期更新及重要公告: </h1>
-            <h1 style="margin-right: 17%;color:yellow;border-bottom: 5px solid blue;">製作DWMS V2網站</h1>
+        <div class="tags-box">
+            <img class="title-img" draggable="false" src="./moon.ico" width="80px" height="80px">
+            <div class="search">
+                <form data-bookfinder-form>
+                    <input name="search" type="text" placeholder="請輸入搜尋內容……" />
+                    <button type="submit">送出</button>
+                </form>
+                <!-- 搜尋結果 -->
+                <ul data-books></ul>
+            </div>
+            <div class="tag">
+                <h2>地圖創作</h2>
+            </div>
+            <div class="tag">
+                <h2>團隊介紹</h2>
+            </div>
+            <div class="tag">
+                <h2>加入我們</h2>
+            </div>
         </div>
-        <br/>
+
         <div class="title">
-            <img draggable="false" data-aos="zoom-out-up" src="./moon.ico">
-            <h1>DWMS</h1>
-            <div data-aos="zoom-in-up" class="box-1">
-                <h3>一個極小的團隊，我們的目標是建設一個平台</h3>
-            </div>
-        </div>
-
-        <div data-aos="fade-down" class="social-link">
-                <a target="_blank" title="(另開新分頁)" href="https://discord.gg/ytKqrske7w"><img src="./discord.ico"></a>
-        </div>
-
-        <div class="tags">
-            <div class="tags-box">
-                <a href="./tags/team">關於我們</a>
-            </div>
-            <div class="tags-box">
-                <a href="./tags/map">地圖創作</a>
-            </div>
-            <div class="tags-box">
-                <a href="./tags/joinus">加入我們</a>
-            </div>
-            <div class="tags-box">
-                <a href="./tags/update">更新資訊</a>
-            </div>
+            <span id="element"></span>
+            <script>
+                var typed = new Typed('#element', {
+                strings: ['Ecped', '一個Minecraft小團隊','地圖創作團隊'],
+                typeSpeed: 60,
+                loop: true
+                });
+            </script>
         </div>
     </body>
 
@@ -54,6 +57,6 @@
         AOS.init({
             duration:3000,
         });
-        </script>
+    </script>
     </body>
 </html>
