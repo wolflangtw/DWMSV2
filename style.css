@@ -44,6 +44,11 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+.info {
+    background:red;
+    width: 100px;
+    height: 200px;
+}
 .tag:hover {
     color:blue;
     background-color: white;
@@ -60,7 +65,9 @@ body {
     font-weight: bold;
 }
 .title {
-    margin-top: 10%;
+    display: block;
+    margin: 15% auto;
+
 }
 
 
