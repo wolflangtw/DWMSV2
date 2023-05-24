@@ -1,7 +1,7 @@
 
 body {
-	font-family:  'Segoe UI';	
-	font-weight: bold;
+	font-family:  'Segoe UI',sans-serif, serif;
+	font-weight: 700;
     background: linear-gradient(90deg, rgba(1,112,254,1) 0%, rgba(0,0,255,1) 50%, rgba(1,112,254,1) 100%);
     background-size: cover;
     display: flex;
@@ -9,6 +9,7 @@ body {
     align-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
+    
 }
 /* 頂部 */
 .title-img {
@@ -67,7 +68,7 @@ body {
 .title {
     display: block;
     margin: 0;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-bottom: 100px;
 }
 
@@ -78,7 +79,7 @@ body {
     align-items: center;
     align-content: center;
     margin: 0;
-    margin-top: 600px;
+    margin-top: 500px;
     border: 5px solid black;
     width: 300px;
     height: 70px;
@@ -93,10 +94,34 @@ body {
     color: red;
 }
 .join-us a {
-    font-size: 35px;
+    padding: 20px;
+    font-size: 33px;
+    width: 300px;
+    
     color: black;
     text-decoration:none;
 }
+swiper-container {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    margin-top: 650px;
+    border-radius: 10px;
+}
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    filter: saturate(200%);
+}
