@@ -6,17 +6,18 @@
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
         <link rel="stylesheet" type="text/css" href="./style.css">
         <script type="text/javascript" src="./index.js"></script>
-        <link rel="icon" href="./moon.ico" type="image/x-icon">
+        <link rel="icon" href="./Ecped.ico" type="image/x-icon">
 
         <meta property="og:title" content="Ecped 官網" />  
         <meta property="og:description" content="Ecped">  
-        <!-- <meta property="og:image" content="https://s4.itho.me/sites/default/files/960_logo.png" /> -->
+        <meta property="og:image" content="./img/Ecped.png" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="typed.js"></script>
         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        
+
 
         <script>
             window.addEventListener('load', () => {
@@ -26,7 +27,7 @@
     </head>
     <body>
         <div class="tags-box">
-            <img class="title-img" draggable="false" src="./moon.ico" width="80px" height="80px">
+            <img class="title-img" draggable="false" src="./Ecped.ico" width="80px" height="80px">
 
             <div class="tag">
                 <h2>地圖創作</h2>
@@ -55,21 +56,6 @@
             <a href="#joun-us" target="_blank">加入我們 Join Us</a>
         </div>
 
-        <swiper-container class="Swiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-    loop="true">
-            <swiper-slide><img src="./img/main-img/01.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/02.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/03.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/04.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/05.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/06.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/07.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/08.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/09.png"></swiper-slide>
-            <swiper-slide><img src="./img/main-img/10.png"></swiper-slide>
-        </swiper-container>
-        
-
     </body>
 
     <!-- AOS -->
@@ -78,6 +64,16 @@
             duration:3000,
         });
     </script>
-    
+    <!-- quick  -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () =>
+        {
+            quicklink.listen(
+                {
+                    origins: true
+                }
+            );
+        });
+    </script>
     </body>
 </html>
