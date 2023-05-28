@@ -16,29 +16,49 @@ body {
     text-align: center;
     padding: 8px 20px;
     text-decoration: none;
+    font-weight: 900;
 }
 .tags input[type="button"]:hover {
     background-color: #ddd;
     color: black;
 }
 h2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     color: cyan;
     font-size: 55px;
     margin: auto;
-    margin-right: 100px;
+    margin-top: 10px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: red;
+    font-size: 55px;
+    margin: auto;
 }
 .main {
-    display: inline-block; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
     color:white;
     align-items: center;
     text-align: center;
     color:white;
     font-size: xx-large;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .main ol{
+    display: block;
     text-align: left;
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 110px;
 }
