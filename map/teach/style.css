@@ -1,12 +1,18 @@
 body {
-    background-color: rgb(18, 18, 18);
+    background: url("../../img/map/background.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     display: block;
 }
 
 .tags input[type="button"]{
     overflow: hidden;
-    color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
     background: none;
     border-radius: 10px;
     border: 3px solid red;
@@ -20,14 +26,13 @@ body {
 }
 .tags input[type="button"]:hover {
     background-color: #ddd;
-    color: black;
 }
 h2 {
     display:flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: cyan;
+    color: black;
     font-size: 55px;
     margin: auto;
     margin-top: 10px;
@@ -46,12 +51,14 @@ h3 {
     justify-content: center;
     align-items: center;
     align-content: center; 
-    color:white;
+    color:blue;
+
     align-items: center;
     text-align: center;
-    color:white;
-    font-size: xx-large;
+    font-size: 1cm;
+    font-weight: 900;
     margin: 0 auto;
+    
 }
 
 .main ol{
@@ -60,5 +67,6 @@ h3 {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 0px;
-    margin-left: 110px;
+    margin-left: 210px;
 }
+

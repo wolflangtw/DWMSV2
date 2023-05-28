@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background:url("../img/map/background.png");
+    background:url("../img/map/background.webp") ;
     font-family: "Noto Sans TC", sans-serif;
 	font-weight: bold;
 	min-width: 20px;
@@ -53,7 +53,9 @@ h1 {
 }
 .tags input[type="button"]{
     overflow: hidden;
-    color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
     background: none;
     border-radius: 10px;
     border: 3px solid red;
@@ -77,6 +79,9 @@ h2{
 h1,h2, p{
     color: white;
     padding: 10px;
+}
+p {
+    width: 400px;
 }
 
 .world {

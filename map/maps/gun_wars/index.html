@@ -9,19 +9,40 @@
 
     <meta property="og:title" content="槍戰地圖Gunwars | DWMS" />  
     <meta property="og:image" content="./gunwars.png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
 </head>
 <body>
+    <div class="tags">
+        <input type="button" value="上一頁" onclick="location.href='../../map.html'">
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
     <div class="title">
         <h1>槍戰 Gunwars</h1>
     </div>
+
     <div class="info">
         <h2>介紹</h2>
     </div>
+    <h3>很多關卡、難度越來越難，有階段復活</h3>
     <div class="img">
         <h2>圖片</h2>
     </div>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+        centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" keyboard="true" space-between="30" effect="fade" loop="true">
+            <swiper-slide><img src="../../../img/map-img-gunwars/01.webp"></img></swiper-slide>
+            <swiper-slide><img src="../../../img/map-img-gunwars/02.webp"></img></swiper-slide>
+    </swiper-container>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    
     <div class="team">
-        <h2>製作團隊</h2>
+        <h2>製作人員: <span>狼狼 、 紙圓</span></h2>
     </div>
     <div class="download">
         <h2>下載</h2>
