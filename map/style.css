@@ -1,8 +1,13 @@
+
 html {
     box-sizing: border-box;
 }
 body {
     background:url("../img/map/background.webp") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-family: "Noto Sans TC", sans-serif;
 	font-weight: bold;
 	min-width: 20px;
@@ -19,12 +24,13 @@ h1 {
     font-size: xx-large;
 }
 .title {
-    font-size: 2cm;
+    font-size: 1.5cm;
     margin-right:110px;
 }
 /* dn */
 .dn {
     margin-left: -70px;
+    margin-top: 20px;
     border:10px solid #333333;
     font-weight: bold;
     background-color: green;
