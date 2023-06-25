@@ -7,7 +7,6 @@ function generateCommand() {
     var underlined = document.getElementById("underlined").checked;
     var strikethrough = document.getElementById("strikethrough").checked;
     var obfuscated = document.getElementById("obfuscated").checked;
-    var textDelay = document.getElementById("textDelay").value;
 
     var message = {
         "text": text,
@@ -17,7 +16,6 @@ function generateCommand() {
         "underlined": underlined,
         "strikethrough": strikethrough,
         "obfuscated": obfuscated,
-        "text_delay": textDelay
     };
 
     var command = "/tellraw " + target + " " + JSON.stringify(message);
