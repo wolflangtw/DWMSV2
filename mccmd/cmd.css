@@ -40,8 +40,8 @@ input[type="checkbox"] {
     width: 0.5cm;
     padding: 20px;
     height: 0.5cm;
-    margin-top: 20px;
-    margin-bottom: -25px;
+    margin-top: -5px;
+    margin-bottom: -20px;
 }
 button{
     font-size: 0.5cm;
